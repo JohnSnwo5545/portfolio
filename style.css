@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Preahvihear&display=swap');
 
+:root{
+
+--color1:#ffa500;
+--color2:#f2ad00;
+--color3:#f5a20a;
+
+}
+
+
 body {
     color: white;
     margin: 0;
@@ -12,7 +21,7 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    background-color: #1a0b2e;
+    background: linear-gradient(#00747E,#112f36,#001211 );
     padding: 8px 15%;
     align-items: center;
 }
@@ -23,10 +32,13 @@ header nav ul {
     list-style: none;
     justify-content: space-between;
     font-family: "Plus Jakarta Sans", sans-serif;
+    color:var(--color3);
+    
 }
 
 header img {
     height: 39px;
+
 }
 
 main {
