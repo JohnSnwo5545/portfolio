@@ -6,13 +6,11 @@
     --color3: #f5a20a;
 }
 
-
 body {
     color: white;
     margin: 0;
     background-color: rgb(16, 7, 30);
     font-family: "Preahvihear", sans-serif;
-
 }
 
 header {
@@ -161,6 +159,7 @@ h1 {
 .bio>p {
     font-size: 22px;
 }
-#experience-section h3{
-margin:170px 0 44px 0;
+
+#experience-section h3 {
+    margin: 170px 0 44px 0;
 }
