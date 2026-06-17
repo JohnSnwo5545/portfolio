@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Preahvihear&display=swap');
 
 :root {
-
-    --color3: #f5a20a;
+    --primary-color: #7127BA;
 }
 
 body {
@@ -11,35 +10,6 @@ body {
     background-color: rgb(16, 7, 30);
     font-family: "Preahvihear", sans-serif;
 }
-h1 {
-    margin-top: 30px;
-}
-h1,
-h2 {
-    font-size: 50px;
-    margin: 0;
-}
-
-h3 {
-    font-size: 40px;
-}
-
-h5 {
-    font-size: 25px;
-}
-
-p {
-    font-size: 18px;
-    margin: 0;
-}
-
-
-
-
-
-
-
-
 
 header {
     display: flex;
@@ -55,17 +25,20 @@ header nav ul {
     list-style: none;
     justify-content: space-between;
     font-family: "Plus Jakarta Sans", sans-serif;
-    color: var(--color3);
+    color: #f5a20a;
 }
 
 header img {
     height: 39px;
-
 }
 
 main {
     margin: 5% 15%;
+}
 
+p {
+    font-size: 18px;
+    margin: 0;
 }
 
 .introduction-section {
@@ -77,6 +50,7 @@ main {
 .introduction {
     position: relative;
 }
+
 .avatar-container {
     position: relative;
 }
@@ -89,7 +63,7 @@ main {
     transform: translate(-50%, -50%);
     width: 120%;
     height: 120%;
-    background-color: #763cac;
+    background-color: var(--primary-color);
     border-radius: 50%;
     filter: blur(60px);
     z-index: -1;
@@ -104,9 +78,8 @@ main {
 }
 
 .introduction>p>span {
-    color: #7127BA;
+    color: var(--primary-color);
 }
-
 
 .arrow {
     position: absolute;
@@ -115,7 +88,7 @@ main {
 }
 
 span {
-    color: #7127BA;
+    color: var(--primary-color);
 }
 
 .introduction-text {
@@ -145,6 +118,24 @@ span {
     font-size: 22px;
 }
 
+h1 {
+    margin-top: 30px;
+}
+
+h1,
+h2 {
+    font-size: 50px;
+    margin: 0;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+h5 {
+    font-size: 25px;
+}
+
 .job {
     display: flex;
     align-items: center;
@@ -164,18 +155,46 @@ span {
     margin: 170px 0 44px 0;
 }
 
-
-
-
-#compagn {
-    color: #A362FF;
-
+.center {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
+.center article {
+    background-color: #251C31;
+    width: 44px;
+    height: 44px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.tools-first-line {
+    display: flex;
+    gap: 11px;
+    margin: 32px 0 17px 0;
+}
 
+.tools-second-line {
+    display: flex;
+    gap: 16px;
+}
 
+.fs-24 {
+    font-size: 24px;
+}
 
+.fs-17 {
+    font-size: 17px;
+}
 
+.purple {
+    color: var(--primary-color);
+}
 
-
+section#experience-section div {
+    font-family: "Poppins", sans-serif;
+    background-image: linear-gradient(to right, #130428, #190634);
+}
