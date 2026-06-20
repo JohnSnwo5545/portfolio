@@ -195,12 +195,15 @@ h5 {
 }
 
 
-section#experience-section div {
-   
+#experience-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.experience-card {
     font-family: "Poppins", sans-serif;
     background-image: linear-gradient(to right, #130428, #190634);
     border-top: 1px #2C1250 solid;
     border-radius: 10%;
     margin-bottom: 10px;
-    
 }
